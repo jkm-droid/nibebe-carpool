@@ -1,0 +1,256 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    {% load static %}
+    <section class="header">
+
+        <div class="container">
+            <a href="{% url 'login' %}"> <button type="button" class="login-btn">Login</button></a>
+        </div>
+
+        <h1>Nibebe CarPooling Services</h1>
+            <p>welcome to Nibebe carpooling services</p>
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search Town or City">
+                <button type="submit" class="input-group-text btn">Search</button>
+                    <div class="input-group-append">
+                    </div>
+            </div>
+    </section>
+    <section class="features">
+        <h1>Featured routes where our services are available</h1>
+        <div class="container">
+               <div class="row">
+                 <div class="col-md-4">
+                      <div class="feature-box">
+                           <div class="feature-img">
+                               <img src="{% static '/images/nairobi.jpg' %}">
+                               <div class="route">
+                                <p>JACK</p>
+                               </div>
+
+                           </div>
+                           <div class="feature-details">
+                               <h4>Nairobi City</h4>
+                               <p>0743445678</p>
+                               <div>
+                                   <span><i class="fa fa-map-marker"></i>Nairobi City</span>
+                                   <span><i class="fa fa-sun-o"></i>7 days</span>
+                                   <span><i class="fa fa-moon-o"></i>weekends</span>
+
+                               </div>
+                           </div>
+                      </div>
+                 </div>
+
+                  <div class="col-md-4">
+                       <div class="feature-box">
+                           <div class="feature-img">
+                               <img src="{% static 'images/carpooling2.jpg' %}">
+                               <div class="route">
+                                <p>BEN</p>
+                               </div>
+
+                           </div>
+                           <div class="feature-details">
+                               <h4>Thika Town</h4>
+                               <p>074567899</p>
+                               <div>
+                                   <span><i class="fa fa-map-marker"></i>Thika Town</span>
+                                   <span><i class="fa fa-sun-o"></i>7 Days</span>
+                                   <span><i class="fa fa-moon-o"></i>weekends</span>
+
+                               </div>
+                           </div>
+                      </div>
+
+                 </div>
+
+                    <div class="col-md-4">
+                                <div class="feature-box">
+                           <div class="feature-img">
+                               <img src="{% static '/images/githu2.jpg' %}">
+                               <div class="route">
+                                <p>KYM</p>
+                               </div>
+
+                           </div>
+                           <div class="feature-details">
+                               <h4>GITHURAI TOWN</h4>
+                               <p>0722543225</p>
+                               <div>
+                                   <span><i class="fa fa-map-marker"></i>Githurai Town</span>
+                                   <span><i class="fa fa-sun-o"></i>7 Days</span>
+                                   <span><i class="fa fa-moon-o"></i>Weekends</span>
+
+                               </div>
+                           </div>
+
+                      </div>
+                   </div>
+                 </div>
+
+
+        </div>
+
+    </section>
+    <section class="gallery">
+        <h1>Travelling Gallery</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="gallery-box">
+                    <img src="{% static '/images/charlo.jpg' %}">
+                    <h4>Westlands</h4>
+                </div>
+
+                </div>
+
+                <div class="col-md-3">
+                    <div class="gallery-box">
+                    <img src="{% static '/images/carpooling2.jpg' %}">
+                    <h4>Kikuyu</h4>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <div class="gallery-box">
+                    <img src="{% static '/images/carpooling.jpg' %}">
+                    <h4>Ruiru</h4>
+                    </div>
+
+                </div>
+
+                 <div class="col-md-3">
+                    <div class="gallery-box">
+                    <img src="{% static '/images/capital.jpg' %}">
+                    <h4>Juja</h4>
+                </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="banner">
+        <div class="banner-highlights">
+           <div class="container">
+            <div class="row">
+               <div class="col-md-8">
+
+                 <h2>Get 50% Discount on every carpool ride</h2>
+                <p>Join And Register with us now!</p>
+
+               </div>
+                <div class="col-md-4">
+
+                    <a href="{% url 'register' %}"><button type="button" class="register-btn">Register Now</button></a>
+
+                </div>
+
+            </div>
+
+           </div>
+
+        </div>
+
+    </section>
+    <section class="customers-feedback">
+
+        <h1>Customers Review</h1>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="customers-review">
+                        <p>They have the best carpooling services,not forgetting the best  modern cars with the best playlist  songs you'll listen  during their working hours  </p>
+                        <h5>Roseline Mise</h5>
+                        <small>Thika</small>
+                    </div>
+                    <img src="{% static '/images/nikolas.jpg' %}">
+
+                </div>
+                <div class="col-md-4">
+
+                    <div class="customers-review">
+                        <p>They have the best carpooling services,not forgetting the best  modern cars with the best playlist  songs you'll listen  during their working hours  </p>
+                        <h5>Artsy Solomon</h5>
+                        <small>Thika</small>
+
+                    </div>
+                    <img src="{% static '/images/lodwar.jpg' %}">
+
+                </div>
+                <div class="col-md-4">
+
+                    <div class="customers-review">
+
+
+                        <p>They have the best carpooling services,not forgetting the best  modern cars with the best playlist  songs you'll listen  during their working hours  </p>
+                        <h5>Kish kigambi</h5>
+                        <small>Thika</small>
+
+                    </div>
+                    <img src="{% static '/images/smiley.jpg' %}">
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+
+        <div class="container">
+
+          <div class="row">
+
+            <div class="col-md-3">
+
+                <img src="{% static '/images/logo2.jpg' %}" class="footer-logo">
+
+
+                 <p>We have the best carpooling services,not forgetting the best  modern cars with the best playlist  songs you'll listen  during our working hours.</p>
+
+            </div>
+
+            <div class="col-md-3">
+                <h4>Features</h4>
+                <p>Deals & Offers</p>
+                <p>Customer Reviews</p>
+                <p>Policy</p>
+
+            </div>
+
+
+            <div class="col-md-3">
+
+                <h4>Contact</h4>
+                <p><i class="fa fa-phone-square"></i>+254714850187/+25474850287</p>
+                <p><i class="fa fa-envelope"></i>carpoolingkenya@gmail.com</p>
+                <p><i class="fa fa-home"></i>Accra Road, Nairobi City</p>
+
+          </div>
+
+              <div class="col-md-3">
+
+
+                  <h4>Follow Us on</h4>
+                  <p><i class="fa fa-facebook-official"></i>Facebook</p>
+                  <p><i class="fa fa-twitter"></i>Twitter</p>
+                  <p><i class="fa fa-instagram"></i>Instagram</p>
+
+              </div>
+
+            </div><hr>
+            <p class="copyright">Made with <i class="fa fa-heart"></i> by Charles Christopher & jkm-droid</p>
+
+        </div>
+
+     </section>
+    
+{% endblock %}
