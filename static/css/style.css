@@ -7,15 +7,13 @@
 .header
 {
     height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/static/images/nairobi.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(/static/images/city3.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     padding-top: 20px;
     text-align: center;
     color: #fff;
-
-
 }
 .login-btn
 {
@@ -149,8 +147,6 @@ bottom: -50px;
 	top: 50%;
 	left:50%;
 	transform: translate(-50%,-50%);
-
-
 }
 .gallery-box{
 	position: relative;
@@ -159,13 +155,11 @@ bottom: -50px;
 }
 .banner{
 height: 80%;
-background-image: url(../images/carpooling3.jpg);
+background-image: url(../images/traffick.jpg);
  background-position: center;
 background-size: cover;
 background-attachment: fixed;
 padding-top: 14%;
-
-
 
 }
 
@@ -392,7 +386,7 @@ footer-logo{
 .registerbox{
 
 	width: 320px;
-	height: 650px;
+	height: 600px;
 	background: #000;
 	color: #fff;
 	top: 50%;
@@ -443,9 +437,9 @@ footer-logo{
 	border-bottom: 1px solid #fff;
 	background: transparent;
 	outline: none;
-	height: 25px;
+	height: 20px;
 	color: #fff;
-	font-size: 16px;
+	font-size: 15px;
 	text-align: center;
 
 
@@ -456,9 +450,9 @@ footer-logo{
 	border-bottom: 1px solid #fff;
 	background: transparent;
 	outline: none;
-	height: 15px;
+	height: 20px;
 	color: #fff;
-	font-size: 16px;
+	font-size: 15px;
 	text-align: center;
 
 }
@@ -468,12 +462,15 @@ footer-logo{
 	border-bottom: 1px solid #fff;
 	background: transparent;
 	outline: none;
-	height: 25px;
+	height: 20px;
 	color: #fff;
-	font-size: 16px;
+	font-size: 15px;
 	text-align: center;
-
 }
+.registerbox label{
+	font-size: 15px;
+}
+
 
 
 
