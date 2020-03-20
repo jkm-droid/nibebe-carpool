@@ -16,11 +16,22 @@
     <h4 class="text-center">
         <small>Welcome to Nibebe {{user.username}}.<br> Thank You for registering with Nibebe. The user portal is currently under development</small>
     </h4>
-   {% if user.profile.role == 'PASSENGER' %}
-       {% include 'includes/passenger.html' %}
-   {% else %}
-       {% include 'includes/driver.html' %}
-   {% endif %}
+
+    {% if user.profile.is_profile %}
+        {% if user.profile.role == 'PASSENGER' %}
+
+            {% include 'includes/passenger.html' %}
+
+        {% elif user.profile.role == 'DRIVER'  %}
+
+            {% include 'includes/driver.html' %}
+
+        {% endif %}
+    {% else %}
+
+         {% include 'includes/anonymous.html' %}
+
+    {% endif %}
 
 {% endif %}
 

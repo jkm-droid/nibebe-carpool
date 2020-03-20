@@ -5,7 +5,7 @@
 {% block content %}
 
     <div class="col-md-6 offset-md-3">
-        <h5 class="text-warning"><small>To change your details fill the form below and click "Change Profile"</small></h5>
+        <h5 class="text-warning text-center"><small>To change your details fill the form below and click "Change Profile"</small></h5>
          <form method="POST" action="{% url 'edit_profile' %}">
             {% csrf_token %}
             {{ user_form|crispy }}

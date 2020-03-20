@@ -13,6 +13,7 @@ class Profile(models.Model):
     phone_number = models.CharField(max_length=10, blank=False)
     id_number = models.CharField(max_length=8, blank=False)
     role = models.CharField(max_length=9, choices=ROLE_CHOICES, default="PASSENGER")
+    is_profile = models.BooleanField(default=False)
 
     @receiver(post_save, sender=User)
     def create_user_profile(sender, instance, created, **kwargs):
