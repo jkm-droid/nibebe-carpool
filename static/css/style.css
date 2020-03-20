@@ -27,6 +27,19 @@
    float: right;
 
 }
+.home-btn
+{
+   width: 100px;
+   padding: 8px 0;
+   outline: none;
+   border: 2px solid #fff;
+   border-radius: 40px;
+   background: transparent;
+	margin-top: 10px;
+   color: #fff;
+   float: right;
+
+}
 .header h1{
 	padding-top: 230px;
 	padding-bottom: 0px;
@@ -386,7 +399,7 @@ footer-logo{
 .registerbox{
 
 	width: 320px;
-	height: 600px;
+	height: 530px;
 	background: #000;
 	color: #fff;
 	top: 50%;
@@ -401,7 +414,7 @@ footer-logo{
 {
 	border: none;
 	outline: none;
-	height: 30px;
+	height: 40px;
 	background: #fb2525;
 	color: #fff;
 	font-size: 18px;
@@ -437,7 +450,7 @@ footer-logo{
 	border-bottom: 1px solid #fff;
 	background: transparent;
 	outline: none;
-	height: 20px;
+	height: 24px;
 	color: #fff;
 	font-size: 15px;
 	text-align: center;
@@ -450,7 +463,7 @@ footer-logo{
 	border-bottom: 1px solid #fff;
 	background: transparent;
 	outline: none;
-	height: 20px;
+	height: 24px;
 	color: #fff;
 	font-size: 15px;
 	text-align: center;
@@ -462,13 +475,13 @@ footer-logo{
 	border-bottom: 1px solid #fff;
 	background: transparent;
 	outline: none;
-	height: 20px;
+	height: 24px;
 	color: #fff;
 	font-size: 15px;
 	text-align: center;
 }
 .registerbox label{
-	font-size: 15px;
+	font-size: 13px;
 }
 
 
