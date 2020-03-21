@@ -18,7 +18,7 @@ class ProfileExtend(admin.StackedInline):
 
 class CustomUserAdmin(UserAdmin):
     inlines = (ProfileExtend,)
-    list_display = ('username', 'first_name', 'last_name', 'email', 'get_role', 'is_active', 'is_staff', 'last_login')
+    list_display = ('username', 'first_name', 'last_name', 'email', 'get_role', 'get_profile_status', 'is_active', 'is_staff', 'last_login')
     list_filter = ('is_staff', 'is_superuser')
     list_select_related = ('profile',)
 
@@ -26,6 +26,11 @@ class CustomUserAdmin(UserAdmin):
         return instance.profile.role
 
     get_role.short_description = 'Role'
+
+    def get_profile_status(self, instance):
+        return instance.profile.is_profile
+
+    get_profile_status.short_description = 'Profile status'
 
     def get_inline_instances(self, request, obj=None):
         if not obj:
