@@ -30,8 +30,8 @@ class Profile(models.Model):
 
 
 class Town(models.Model):
-    name = models.CharField(max_length=50)
-    # town_id = models.ManyToManyField('Profile', related_name='profile.user')
+    town_name = models.CharField(max_length=50, blank=False)
+    town_id = models.ManyToManyField('Profile', blank=True)
 
-    def __str__(self):
-        return self.name
+    #def __str__(self):
+        #  return self.town_name

@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="93cd9e10-5518-400a-841e-7af13a550a06" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portal/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/portal/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portal/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/portal/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portal/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/portal/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/baseportal.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/baseportal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/includes/anonymous.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/anonymous.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/includes/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portal/templates/portal/edit_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/portal/templates/portal/edit_profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portal/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/portal/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/includes/driver.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/driver.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/includes/passenger.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/passenger.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +125,7 @@
       <workItem from="1585436464976" duration="633000" />
       <workItem from="1585437563629" duration="116000" />
       <workItem from="1585448371732" duration="832000" />
-      <workItem from="1585450196154" duration="1316000" />
+      <workItem from="1585450196154" duration="7433000" />
     </task>
     <servers />
   </component>

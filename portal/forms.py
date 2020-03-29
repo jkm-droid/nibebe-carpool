@@ -1,7 +1,7 @@
 from django.contrib.auth.forms import UserChangeForm
 from django.contrib.auth.models import User
 from django import forms
-from .models import Profile
+from .models import Profile, Town
 
 """
 form to register the user
@@ -61,3 +61,26 @@ class EditProfileForm(UserChangeForm):
 
         self.fields['last_name'].widget.attrs['placeholder'] = 'Enter your last name'
         self.fields['last_name'].help_text = ''
+
+
+"""
+form for creating town details
+"""
+
+
+class AddTown(forms.ModelForm):
+    class Meta:
+        model = Town
+        fields = ['town_name']
+
+    def clean_name(self):
+        data = self.cleaned_data['town_name']
+
+        if len(data) == '' and len(data) < 3:
+            raise forms.ValidationError('Town name is too short')
+
+    def __init__(self, *args, **kwargs):
+        super(AddTown, self).__init__(*args, **kwargs)
+
+        self.fields['town_name'].widget.attrs['placeholder'] = 'Enter the name of your town'
+        self.fields['town_name'].help_text = ''

@@ -10,6 +10,7 @@
             {% csrf_token %}
             {{ user_form|crispy }}
              {{ profile_form|crispy }}
+             {{ town_form|crispy }}
 
              <input type="submit" value="Change Profile" class="btn btn-success">
         </form>
