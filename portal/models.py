@@ -3,6 +3,10 @@ from django.contrib.auth.models import User
 from django.db.models.signals import post_save
 from django.dispatch import receiver
 
+"""
+class to define extra user attributes
+"""
+
 
 class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE, related_name='profile')
@@ -23,3 +27,11 @@ class Profile(models.Model):
     @receiver(post_save, sender=User)
     def save_user_profile(sender, instance, **kwargs):
         instance.profile.save()
+
+
+class Town(models.Model):
+    name = models.CharField(max_length=50)
+    # town_id = models.ManyToManyField('Profile', related_name='profile.user')
+
+    def __str__(self):
+        return self.name

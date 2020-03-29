@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="93cd9e10-5518-400a-841e-7af13a550a06" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portal/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/portal/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portal/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/portal/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/baseportal.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/baseportal.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/includes/anonymous.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/anonymous.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/includes/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/navbar.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +118,13 @@
       <workItem from="1584564211910" duration="19494000" />
       <workItem from="1584677741880" duration="1702000" />
       <workItem from="1584730773873" duration="1781000" />
-      <workItem from="1584741378204" duration="6348000" />
+      <workItem from="1584741378204" duration="6954000" />
+      <workItem from="1584859731964" duration="4758000" />
+      <workItem from="1584956573806" duration="615000" />
+      <workItem from="1585436464976" duration="633000" />
+      <workItem from="1585437563629" duration="116000" />
+      <workItem from="1585448371732" duration="832000" />
+      <workItem from="1585450196154" duration="1316000" />
     </task>
     <servers />
   </component>

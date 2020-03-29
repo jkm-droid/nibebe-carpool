@@ -1,9 +1,9 @@
 <div class="col-md-8 offset-md-2">
-    <div class="alert alert-warning">
+    <div class="alert alert-warning row">
         <h4 class="text-center">
-           <small>
+           <small><i class="fa fa-exclamation-triangle" style="color: #fb2525;"></i>
                Hi {{ user.username }}. Please update your profile so we can serve you better. Thank you
-               <small><a style="text-decoration: none; color: #fb2525;" href="{% url 'edit_profile' %}"><b>Update Profile</b></a></small>
+               <small><a style="text-decoration: none; color: #fb2525;" href="{% url 'edit_profile' %}"><b>Update Profile </b></a></small>
            </small>
         </h4>
     </div>
